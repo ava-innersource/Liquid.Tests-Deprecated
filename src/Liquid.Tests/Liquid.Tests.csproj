@@ -19,8 +19,9 @@
       The Liquid.Test component provides classes to organize the unit tests of your application. It uses the NUnit test framework.
       This component is part of Liquid Application Framework.
     </Description>
+    <!-- Project is not a test project -->
+    <SonarQubeTestProject>false</SonarQubeTestProject>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Liquid.Core" Version="2.0.0-alpha" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.3" />
